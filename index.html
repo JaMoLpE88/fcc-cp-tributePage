@@ -1,0 +1,162 @@
+<!-- Build a Tribute Page
+Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
+
+User Stories:
+
+Your tribute page should have a main element with a corresponding id of main, which contains all other elements ✅
+You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug") ✅
+You should see either a figure or a div element with an id of img-div ✅
+Within the #img-div element, you should see an img element with a corresponding id="image" ✅
+Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in #img-div ✅
+You should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page ✅
+You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab ✅
+Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size ✅
+Your img element should be centered within its parent element ✅
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding! ✅
+
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JaMoLpE88 Frontend Developer</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="navbar">
+        <div id="logo">jamolpe88_</div>
+        <h1 id="title">Frontend Developer</h1>
+        <ul id="menu">
+          <li><a href="#bio">About</a></li>
+          <li><a href="#tribute-info">Technologies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <div id="main2">
+        <section id="bio">
+          <div id="img-div">
+            <img
+              src="https://i.imgur.com/dJ15W68.png"
+              alt="Image Profile"
+              id="image"
+            />
+            <figcaption id="img-caption">
+              "Develop whenever you can. There are no limits."
+            </figcaption>
+          </div>
+          <div id="description">
+            <code>&lt;Software Development Lover /></code>
+            <p>
+              👨‍🎓 My name is Javier, I am a Spanish Senior Computer Technician in
+              Computer Application Development.
+            </p>
+            <p>
+              👨‍💻 I am a Frontend and Mobile Developer with Next / React and
+              React Native.
+            </p>
+            <p>
+              ➡️ I am a lover of everything that surrounds JavaScript 💛💙
+              TypeScript.
+            </p>
+            <br />
+            <p>I try to keep learning and improving every day 💪</p>
+          </div>
+        </section>
+        <hr />
+        <section id="tribute-info">
+          <div class="technologies">
+            <img src="https://simpleicons.org/icons/html5.svg" alt="html5" />
+            <figcaption>HTML5</figcaption>
+          </div>
+          <div class="technologies">
+            <img src="https://simpleicons.org/icons/css3.svg" alt="css3" />
+            <figcaption>CSS3</figcaption>
+          </div>
+          <div class="technologies">
+            <img
+              src="https://simpleicons.org/icons/javascript.svg"
+              alt="javascript"
+            />
+            <figcaption>JavaScript</figcaption>
+          </div>
+          <div class="technologies">
+            <img
+              src="https://simpleicons.org/icons/typescript.svg"
+              alt="typescript"
+            />
+            <figcaption>TypeScript</figcaption>
+          </div>
+          <div class="technologies">
+            <img src="https://simpleicons.org/icons/react.svg" alt="react" />
+            <figcaption>React</figcaption>
+          </div>
+          <div class="technologies">
+            <img src="https://simpleicons.org/icons/nextdotjs.svg" alt="next" />
+            <figcaption>Next</figcaption>
+          </div>
+          <div class="technologies">
+            <img
+              src="https://simpleicons.org/icons/react.svg"
+              alt="react native"
+            />
+            <figcaption>React Native</figcaption>
+          </div>
+          <div class="technologies">
+            <img src="https://simpleicons.org/icons/nodedotjs.svg" alt="node" />
+            <figcaption>Node</figcaption>
+          </div>
+          <div class="technologies">
+            <img
+              src="https://simpleicons.org/icons/express.svg"
+              alt="express"
+            />
+            <figcaption>Express</figcaption>
+          </div>
+          <div class="technologies">
+            <img
+              src="https://simpleicons.org/icons/mongodb.svg"
+              alt="mongodb"
+            />
+            <figcaption>MongoDB</figcaption>
+          </div>
+          <div class="technologies">
+            <img
+              src="https://simpleicons.org/icons/graphql.svg"
+              alt="graphql"
+            />
+            <figcaption>GraphQL</figcaption>
+          </div>
+          <div class="technologies">
+            <img src="https://simpleicons.org/icons/git.svg" alt="git" />
+            <figcaption>Git</figcaption>
+          </div>
+          <div class="technologies">
+            <img
+              src="https://simpleicons.org/icons/markdown.svg"
+              alt="markdown"
+            />
+            <figcaption>Markdown</figcaption>
+          </div>
+        </section>
+      </div>
+      <footer id="contact">
+        <a
+          href="https://github.com/JaMoLpE88"
+          id="tribute-link"
+          target="_blank"
+        >
+          <img
+            src="https://simpleicons.org/icons/github.svg"
+            alt="github profile"
+          />
+        </a>
+      </footer>
+    </main>
+  </body>
+</html>
